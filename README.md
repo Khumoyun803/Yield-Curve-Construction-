@@ -12,7 +12,7 @@ These are the important points to take into account while running the code:
    ```
     Then type the following command to create an executable file:
    ```
-   pyinstaller your_script.py --onefile --noconsole
+   pyinstaller yc_prog.py --onefile --noconsole
    ```
 3) The code requires uploading an excel file, which contains two columns: 'Maturity' (in days) and 'Yield' (of the benchmark bonds). The sample excel spreadsheet is provided as an example.   
 4) A basic plug-in program allows for running, calibrating the parameters of the model and visualizing the constructed curves (i.e., zero coupon yield curve, par curve and forward curve).
